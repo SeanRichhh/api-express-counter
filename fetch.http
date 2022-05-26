@@ -1,0 +1,17 @@
+GET http://localhost:3030/counter HTTP/1.1
+
+###
+
+POST http://localhost:3030/counter/increment HTTP/1.1
+
+#####
+
+POST http://localhost:3030/counter/decrement HTTP/1.1
+
+
+###
+
+POST http://localhost:3030/counter/double HTTP/1.1 HTTP/1.1
+
+
+###
